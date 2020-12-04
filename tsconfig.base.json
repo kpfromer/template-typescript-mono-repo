@@ -1,0 +1,11 @@
+// global tsconfig for both development and production
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "moduleResolution": "node",
+    "lib": ["es6"],
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

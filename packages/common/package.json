@@ -1,0 +1,14 @@
+{
+  "name": "@mono/common",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "rimraf": "^3.0.2"
+  }
+}
